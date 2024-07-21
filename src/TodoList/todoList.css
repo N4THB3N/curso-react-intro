@@ -1,0 +1,21 @@
+ul{
+    justify-content: center;
+    list-style-type: none;
+    border-radius: 30px;
+}
+
+ul form{
+    text-align: left;
+}
+
+ul input{
+    border: none;
+    border-bottom: 1px solid;
+    float: left;
+    width: 58%;
+    font-size: 18px;
+}
+
+ul input:focus-visible{
+    outline: none;
+}

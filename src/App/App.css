@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background: #219C90;
+}
+
+#formDiv {
+    width: 550px;
+    height: auto;
+    margin: 70px auto;
+    padding: 50px;
+    background: #ffffffdb;
+    border-radius: 15px;
+}
+
+#formDiv form {
+    text-align: center;
+}
+
+#formDiv ul {
+    list-style: none;
+    padding: 0;
+}
+#formDiv li {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 4px 10px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 93%;
+    display: inline-block;
+    vertical-align: middle;
+}
+

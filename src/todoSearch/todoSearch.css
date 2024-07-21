@@ -1,0 +1,14 @@
+input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+input:focus-visible {
+    outline: none;
+}
