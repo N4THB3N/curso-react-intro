@@ -9,5 +9,6 @@
     cursor: pointer;
     background-color: #8b5ec6;
     vertical-align: middle;
-    margin-left: 10px
+    margin-left: 10px;
+    z-index: 1;
 }
