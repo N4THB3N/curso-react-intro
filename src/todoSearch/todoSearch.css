@@ -1,4 +1,4 @@
-input {
+/* input {
     width: 80%;
     height: 40px;
     border: none;
@@ -11,4 +11,31 @@ input {
 
 input:focus-visible {
     outline: none;
-}
+} */
+
+.search-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa; /* Adjust the color */
+    pointer-events: none;
+  }
+  
+  .search-input {
+    padding-left: 35px; /* Adjust padding to make room for the icon */
+    padding-right: 10px;
+    height: 30px; /* Adjust height as needed */
+    border-radius: 4px;
+    border: 1px solid #ccc; /* Adjust border color */
+    width: 420px; /* Adjust width as needed */
+  }
+  
+  .search-input::placeholder {
+    color: #aaa; /* Placeholder text color */
+  }
